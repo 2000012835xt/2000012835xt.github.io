@@ -22,10 +22,10 @@ repository       : "2000012835xt/2000012835xt.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg" # 请将你的证件照重命名为 profile.jpg 并放入 images/ 文件夹
+  avatar           : "6AA363C4-6159-454F-BFB6-3B82A5B28B16_1_105_c.jpeg"
   name             : "Tong Xie"
   pronouns         : "he/him"  
-  bio              : "Ph.D. Student at School of Integrated Circuits, Peking University. Research: Cross-Layer Reliability & AI Accelerators."
+  bio              : "Ph.D. Student at School of Integrated Circuits, Peking University"
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : 
