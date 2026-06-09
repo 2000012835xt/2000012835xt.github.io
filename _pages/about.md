@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage. I am Tong Xie, a Ph.D. student at the School of Integrated Circuits, Peking University.
+Welcome to my homepage. I am Tong Xie, a second-year Ph.D. student at the School of Integrated Circuits, Peking University.
 
 I received the B.S. degree in Microelectronic Science and Engineering from the School of EECS at Peking University, Beijing, China, in 2024. I am currently pursuing the Ph.D. degree at the School of Integrated Circuits under the supervision of Prof. Runsheng Wang and Prof. Meng Li.
 
@@ -24,7 +24,7 @@ Education
   B.S., Microelectronic Science and Engineering, Sep 2020 - Jul 2024  
   GPA: 3.71/4.0 (Rank: 2)
 
-Selected First-Author Works
+First-Author Works
 ======
 
 - **CREATE: Cross-layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems**  
