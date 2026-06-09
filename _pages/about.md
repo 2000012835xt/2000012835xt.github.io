@@ -40,11 +40,23 @@ Selected First-Author Works
   DATE 2024. [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10546691)
 
 - **DRIFT: Harnessing Inherent Fault Tolerance for Efficient and Reliable Diffusion Model Inference**  
-  Jinqi Wen*, **Tong Xie***, Runsheng Wang, and Meng Li.  
+  Jinqi Wen*, **Tong Xie**\*, Runsheng Wang, and Meng Li.  
   DAC 2026. [Paper Link](https://doi.org/10.1145/3770743.3804042)
 
 - **Aging Aware Adaptive Voltage Scaling for Reliable and Efficient AI Accelerators**  
   **Tong Xie**, Zuodong Zhang, Chao Yang, Yuan Wang, Runsheng Wang, and Meng Li.  
   ISEDA 2026. [Paper Link](https://arxiv.org/abs/2604.09994)
+
+Honors and Achievements
+======
+
+- May 2026: Peking University President's Scholarship
+- Mar 2026: Endeavor Scholarship (Special Program for Integrated Circuit Talents)
+- Dec 2025: Award for Academic Excellence at Peking University
+- Mar 2024: Outstanding Undergraduate Research Training Program Award of Peking University
+- Dec 2022: Lee Wai Wing Scholarship
+- Dec 2022: Merit Student of Peking University
+- Dec 2021: Award for Academic Excellence at Peking University
+- Oct 2019: Bronze Medal of 36th CPhO
 
 For full publication list, please visit the [Publications](/publications/) page.
