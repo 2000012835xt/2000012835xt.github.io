@@ -30,22 +30,32 @@ First-Author Works
 - **CREATE: Cross-layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems**  
   **Tong Xie**, Yijiahao Qi, Jinqi Wen, Zishen Wan, Yanchi Dong, Zihao Wang, Shaofei Cai, Yitao Liang, Tianyu Jia, Yuan Wang, Runsheng Wang, and Meng Li.  
   ASPLOS 2026. [Paper Link](https://dl.acm.org/doi/10.1145/3779212.3790147)
+  
+  ![CREATE key figure](/images/layout_52.png){: style="max-width: 520px; width: 100%; height: auto;" }
 
 - **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-based Fault Tolerance**  
   **Tong Xie**, Jiawang Zhao, Zishen Wan, Zuodong Zhang, Yuan Wang, Runsheng Wang, Ru Huang, and Meng Li.  
   DAC 2025. [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11132610)
+  
+  ![ReaLM key figure](/images/ABFT_circuit1111.png){: style="max-width: 520px; width: 100%; height: auto;" }
 
 - **ASCEND: Accurate yet Efficient End-to-end Stochastic Computing Acceleration of Vision Transformer**  
   **Tong Xie**, Yixuan Hu, Renjie Wei, Meng Li, Yuan Wang, Runsheng Wang, and Ru Huang.  
   DATE 2024. [Paper Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10546691)
+  
+  ![ASCEND key figure](/images/softmax_circuit.png){: style="max-width: 520px; width: 100%; height: auto;" }
 
 - **DRIFT: Harnessing Inherent Fault Tolerance for Efficient and Reliable Diffusion Model Inference**  
   Jinqi Wen*, **Tong Xie**\*, Runsheng Wang, and Meng Li.  
   DAC 2026. [Paper Link](https://doi.org/10.1145/3770743.3804042)
+  
+  ![DRIFT key figure](/images/techniques.png){: style="max-width: 520px; width: 100%; height: auto;" }
 
 - **Aging Aware Adaptive Voltage Scaling for Reliable and Efficient AI Accelerators**  
   **Tong Xie**, Zuodong Zhang, Chao Yang, Yuan Wang, Runsheng Wang, and Meng Li.  
   ISEDA 2026. [Paper Link](https://arxiv.org/abs/2604.09994)
+  
+  ![Aging-aware AVS key figure](/images/TCAD_Aging.png){: style="max-width: 520px; width: 100%; height: auto;" }
 
 Honors and Achievements
 ======
