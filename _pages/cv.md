@@ -11,54 +11,45 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Peking University (PKU), School of Integrated Circuits**  
+  Ph.D., Integrated Circuit Science and Engineering, Sep 2024 - Present  
+  Supervisor: Prof. Runsheng Wang and Prof. Meng Li
+* **Peking University (PKU), School of EECS**  
+  B.S., Microelectronic Science and Engineering, Sep 2020 - Jul 2024  
+  GPA: 3.71/4.0 (Rank: 2)  
+  Thesis: Research on Co-Design Methodology of Neural Network Inference Chip
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Student Researcher, School of EECS, Peking University** (May 2022 - Aug 2024)  
+  Advisor: Prof. Runsheng Wang and Prof. Meng Li  
+  Topics: Memory-Efficient Networks for On-device AI  
+  Project highlight: ASCEND (end-to-end stochastic computing based ViT accelerator)
 
 Publications
 ======
+*\* indicates equal contribution, \dag indicates corresponding author.*
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Honors and Achievements
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* May 2026: Peking University President's Scholarship
+* Mar 2026: Endeavor Scholarship (Special Program for Integrated Circuit Talents)
+* Dec 2025: Award for Academic Excellence at Peking University
+* Mar 2024: Outstanding Undergraduate Research Training Program Award of Peking University
+* Dec 2022: Lee Wai Wing Scholarship
+* Dec 2022: Merit Student of Peking University
+* Dec 2021: Award for Academic Excellence at Peking University
+* Oct 2019: Bronze Medal of 36th CPhO
+
+Competition Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Apr 2023: The 20th Jiang Zehan Cup Mathematical Modeling Competition, Third Prize
+
+Academic Service
 ======
-* Currently signed in to 43 different slack teams
+* Spring 2025: TA, Device Design and Applications for Modern Integrated Circuits
+* Spring 2026: TA, Analysis and Design of VLSI Circuit (Practice)

@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-based Fault Tolerance"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+category: conferences
+permalink: /publication/realm-dac-2025
+excerpt: "Reliable and efficient LLM inference with statistical algorithm-based fault tolerance."
+date: 2025-06-01
+venue: "DAC 2025"
+paperurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11132610"
+citation: '<strong>Tong Xie</strong>, Jiawang Zhao, Zishen Wan, Zuodong Zhang, Yuan Wang, Runsheng Wang, Ru Huang, and Meng Li. (2025). &quot;ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-based Fault Tolerance.&quot; <i>DAC</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+First-author publication.

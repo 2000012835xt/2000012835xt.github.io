@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "ASCEND: Accurate yet Efficient End-to-end Stochastic Computing Acceleration of Vision Transformer"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: conferences
+permalink: /publication/ascend-date-2024
+excerpt: "Accurate and efficient end-to-end stochastic computing acceleration of Vision Transformer."
+date: 2024-06-01
+venue: "DATE 2024"
+paperurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10546691"
+citation: '<strong>Tong Xie</strong>, Yixuan Hu, Renjie Wei, Meng Li, Yuan Wang, Runsheng Wang, and Ru Huang. (2024). &quot;ASCEND: Accurate yet Efficient End-to-end Stochastic Computing Acceleration of Vision Transformer.&quot; <i>DATE</i>.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+First-author publication.

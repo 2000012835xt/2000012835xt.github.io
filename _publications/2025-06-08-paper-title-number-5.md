@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Aging Aware Adaptive Voltage Scaling for Reliable and Efficient AI Accelerators"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/aging-aware-iseda-2026
+excerpt: "Aging-aware adaptive voltage scaling for reliable and efficient AI accelerators."
+date: 2026-01-01
+venue: "ISEDA 2026"
+paperurl: "https://arxiv.org/abs/2604.09994"
+citation: '<strong>Tong Xie</strong>, Zuodong Zhang, Chao Yang, Yuan Wang, Runsheng Wang, and Meng Li. (2026). &quot;Aging Aware Adaptive Voltage Scaling for Reliable and Efficient AI Accelerators.&quot; <i>ISEDA</i>.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+First-author publication.
