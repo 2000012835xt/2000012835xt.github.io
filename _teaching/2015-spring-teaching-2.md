@@ -8,4 +8,4 @@ date: 2026-03-01
 location: "Beijing, China"
 ---
 
-Teaching Assistant (Spring 2026).
+Course support including practice session design and grading.

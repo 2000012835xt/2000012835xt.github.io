@@ -35,7 +35,7 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -45,7 +45,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.collection == 'publications' and page.excerpt %}
+          <h2>Abstract</h2>
+          <p>{{ page.excerpt }}</p>
+        {% endif %}
+        {% assign stripped_content = content | strip_html | strip %}
+        {% unless page.collection == 'publications' and stripped_content == 'First-author publication.' or page.collection == 'publications' and stripped_content == 'Co-first-author publication.' or page.collection == 'publications' and stripped_content == 'Publication entry.' or page.collection == 'publications' and stripped_content == 'Submission.' %}
+          {{ content }}
+        {% endunless %}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
