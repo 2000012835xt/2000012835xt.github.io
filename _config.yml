@@ -23,6 +23,7 @@ repository       : "2000012835xt/2000012835xt.github.io"
 author:
   # Biographic information
   avatar           : "6AA363C4-6159-454F-BFB6-3B82A5B28B16_1_105_c.jpeg"
+  avatar_shape     : "rect" # options: "circle" or "rect"
   name             : "Tong Xie"
   pronouns         : "he/him"  
   bio              : "Ph.D. Student at School of Integrated Circuits, Peking University"

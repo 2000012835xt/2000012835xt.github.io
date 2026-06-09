@@ -155,12 +155,25 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
 
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid var(--global-border-color);
     }
+  }
+
+  .author__avatar-img--circle {
+    border-radius: 50%;
+  }
+
+  .author__avatar-img--rect {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
 }
 
