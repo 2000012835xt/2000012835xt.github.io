@@ -31,7 +31,7 @@ First-Author Works
   **Tong Xie**, Yijiahao Qi, Jinqi Wen, Zishen Wan, Yanchi Dong, Zihao Wang, Shaofei Cai, Yitao Liang, Tianyu Jia, Yuan Wang, Runsheng Wang, and Meng Li.  
   ASPLOS 2026. [Paper Link](https://dl.acm.org/doi/10.1145/3779212.3790147)
   
-  ![CREATE key figure](/images/Overview_58.png?v=20260610-0142){: style="max-width: 520px; width: 100%; height: auto;" }
+  ![CREATE key figure](/images/layout_52.png?v=20260610-1504){: style="max-width: 520px; width: 100%; height: auto;" }
 
 - **ReaLM: Reliable and Efficient Large Language Model Inference with Statistical Algorithm-based Fault Tolerance**  
   **Tong Xie**, Jiawang Zhao, Zishen Wan, Zuodong Zhang, Yuan Wang, Runsheng Wang, Ru Huang, and Meng Li.  
