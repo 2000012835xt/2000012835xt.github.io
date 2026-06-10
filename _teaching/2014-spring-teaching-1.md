@@ -8,4 +8,4 @@ date: 2025-03-01
 location: "Beijing, China"
 ---
 
-Course support including assignment guidance and student Q&A.
+Teaching Assistant (Spring 2025).
