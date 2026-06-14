@@ -60,8 +60,7 @@ First-Author Works
 Honors and Achievements
 ======
 
-- May 2026: Peking University President's Scholarship
-- Mar 2026: Endeavor Scholarship (Special Program for Integrated Circuit Talents)
+
 - Dec 2025: Award for Academic Excellence at Peking University
 - Mar 2024: Outstanding Undergraduate Research Training Program Award of Peking University
 - Dec 2022: Lee Wai Wing Scholarship
