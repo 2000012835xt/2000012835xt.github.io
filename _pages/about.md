@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage. I am Tong Xie, a second-year Ph.D. student at the School of Integrated Circuits, Peking University.
+Welcome to my homepage. I am Tong Xie, a third-year Ph.D. candidate at the School of Integrated Circuits, Peking University.
 
 I received the B.S. degree in Microelectronic Science and Engineering from the School of EECS at Peking University, Beijing, China, in 2024. I am currently pursuing a Ph.D. degree at the School of Integrated Circuits under the supervision of Prof. Runsheng Wang and Prof. Meng Li.
 
