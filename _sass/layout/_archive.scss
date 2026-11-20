@@ -57,6 +57,41 @@
   }
 }
 
+.archive__item--publication {
+  margin-bottom: 0;
+  padding: 0.85rem 0 0.95rem;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .archive__item-title {
+    margin: 0 0 0.2rem;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 1.02rem;
+    font-weight: 650;
+    line-height: 1.4;
+  }
+
+  .publication__authors,
+  .publication__venue {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .publication__authors {
+    color: var(--global-text-color);
+  }
+
+  .publication__venue {
+    margin-top: 0.12rem;
+    color: var(--global-text-color-light);
+  }
+}
+
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
