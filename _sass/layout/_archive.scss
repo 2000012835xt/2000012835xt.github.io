@@ -91,6 +91,13 @@
     color: var(--global-text-color);
     font-weight: 700;
   }
+
+  .publication__pdf {
+    margin-left: 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
 }
 
 .archive__item-excerpt {

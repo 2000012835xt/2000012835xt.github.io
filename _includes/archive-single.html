@@ -46,9 +46,9 @@
           {% assign pub_year = post.date | default: "1900-01-01" | date: "%Y" %}
           {% if post.venue %}
             {% if post.venue contains pub_year %}
-              <p class="publication__venue">{{ post.venue }}</p>
+              <p class="publication__venue">{{ post.venue }}{% if post.paperurl %} <a class="publication__pdf" href="{{ post.paperurl }}">PDF</a>{% endif %}</p>
             {% else %}
-              <p class="publication__venue">{{ post.venue }}, {{ pub_year }}</p>
+              <p class="publication__venue">{{ post.venue }}, {{ pub_year }}{% if post.paperurl %} <a class="publication__pdf" href="{{ post.paperurl }}">PDF</a>{% endif %}</p>
             {% endif %}
           {% endif %}
         {% elsif post.date %}
