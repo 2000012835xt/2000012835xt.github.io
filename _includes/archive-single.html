@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item{% if post.collection == 'publications' %} archive__item--publication{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'publications' or post.collection == 'teaching' %} archive__item--publication{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -39,7 +39,12 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.excerpt %}
+            <p class="publication__authors">{{ post.excerpt | markdownify | strip_html | strip }}</p>
+          {% endif %}
+          {% if post.venue %}
+            <p class="publication__venue">{{ post.venue }}</p>
+          {% endif %}
         {% elsif post.collection == 'publications' %}
           {% assign publication_authors = post.citation | split: ' (' | first %}
           <p class="publication__authors">{{ publication_authors }}</p>
@@ -55,9 +60,9 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-    {% if post.collection != 'publications' and post.excerpt and site.read_more != 'enabled' %}
+    {% if post.collection != 'publications' and post.collection != 'teaching' and post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.collection != 'publications' and post.excerpt and site.read_more == 'enabled' %}
+    {% elsif post.collection != 'publications' and post.collection != 'teaching' and post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
